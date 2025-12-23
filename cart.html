@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart | Cafe Bliss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>☕ Cafe Bliss</h2>
+    <div>
+        <a href="index.html">Menu</a>
+        <a href="cart.html">Cart</a>
+        <a href="history.html">Orders</a>
+        <a href="kitchen.html">Kitchen</a>
+    </div>
+</nav>
+
+<h1 class="title">Your Cart</h1>
+
+<div class="box">
+    <input id="tableNo" placeholder="Enter Table No">
+    <ul id="cart"></ul>
+    <h3>Total: ₹<span id="total">0</span></h3>
+    <button onclick="placeOrder()">Place Order</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafe Bliss | Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>☕ Cafe Bliss</h2>
+    <div>
+        <a href="index.html">Menu</a>
+        <a href="cart.html">Cart</a>
+        <a href="history.html">Orders</a>
+        <a href="kitchen.html">Kitchen</a>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Welcome to Cafe Bliss ☕</h1>
+        <p>Fresh Coffee • Delicious Food • Cozy Vibes</p>
+        <a href="#menuStart" class="hero-btn">Explore Menu</a>
+    </div>
+</section>
+
+<div id="menuStart"></div>
+
+<h1 class="title">Our Menu</h1>
+
+<!-- HOT COFFEE -->
+<h2 class="category">☕ Hot Coffee</h2>
+<div class="grid">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+        <h3>Cappuccino</h3>
+        <p>Rich & creamy</p>
+        <span>₹150</span>
+        <button onclick="addItem('Cappuccino',150)">Add</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+        <h3>Latte</h3>
+        <p>Milk & espresso</p>
+        <span>₹160</span>
+        <button onclick="addItem('Latte',160)">Add</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd">
+        <h3>Espresso</h3>
+        <p>Strong & bold</p>
+        <span>₹120</span>
+        <button onclick="addItem('Espresso',120)">Add</button>
+    </div>
+</div>
+
+<!-- COLD BEVERAGES -->
+<h2 class="category">🧋 Cold Beverages</h2>
+<div class="grid">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e">
+        <h3>Cold Coffee</h3>
+        <p>Chilled & smooth</p>
+        <span>₹140</span>
+        <button onclick="addItem('Cold Coffee',140)">Add</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699">
+        <h3>Chocolate Milkshake</h3>
+        <p>Thick & chocolaty</p>
+        <span>₹180</span>
+        <button onclick="addItem('Chocolate Milkshake',180)">Add</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62">
+        <h3>Lemon Iced Tea</h3>
+        <p>Refreshing</p>
+        <span>₹100</span>
+        <button onclick="addItem('Lemon Iced Tea',100)">Add</button>
+    </div>
+</div>
+
+<!-- SNACKS -->
+<h2 class="category">🍔 Snacks & Fast Food</h2>
+<div class="grid">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38">
+        <h3>Pizza</h3>
+        <p>Classic café Pizza</p>
+        <span>₹140</span>
+        <button onclick="addItem('Veg Burger',140)">Add</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add">
+        <h3>Veg Burger</h3>
+        <p>Chefs Special</p>
+        <span>₹110</span>
+        <button onclick="addItem('French Fries',110)">Add</button>
+    </div>
+</div>
+
+<!-- DESSERTS -->
+<h2 class="category">🍰 Desserts</h2>
+<div class="grid">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587">
+        <h3>Chocolate Cake</h3>
+        <p>Rich & moist</p>
+        <span>₹190</span>
+        <button onclick="addItem('Chocolate Cake',190)">Add</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c">
+        <h3>Brownie with Ice Cream</h3>
+        <p>Hot & cold combo</p>
+        <span>₹210</span>
+        <button onclick="addItem('Brownie with Ice Cream',210)">Add</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
